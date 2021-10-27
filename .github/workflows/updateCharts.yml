@@ -44,7 +44,7 @@ jobs:
       - run: R -e 'renv::restore()'
       # execute Rscript
       - run: |-
-          Rscript vwVaccineDataTracker.R
+          Rscript covidVaxTravelMap.R
           git pull
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
