@@ -175,7 +175,7 @@ covidCases <- tryCatch({
     inner_join(statePops, by = c("abbr" = "Location")) %>% 
     mutate(cases_per_100K = (tot_cases / Census2019) * 100000,
            case_date = cdcUpdateDate) %>% 
-    select(abbr, LongName, cases_per_100K, Date)
+    select(abbr, LongName, cases_per_100K, case_date)
   
 }, error = function(cond) {
   condFull <- error_cnd(class = "covidCasesError", message = paste("An error occured with the update:", 

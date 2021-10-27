@@ -1,0 +1,4 @@
+An error occured with the update: Error: Can't subset columns that don't exist.
+[31mx[39m Column `Date` doesn't exist.
+ on 2021-10-27 
+
