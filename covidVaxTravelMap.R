@@ -153,7 +153,7 @@ vaxMandates %>%
 
 ## COVID-19 cases
 covidCases <- tryCatch({
-  cdcCasesJSON <- fromJSON(file = "https://raw.githubusercontent.com/anesta95/covidVaxTravelMap/main/cdcCovidCases.json")
+  cdcCasesJSON <- fromJSON(file = "https://raw.githubusercontent.com/Dotdash-Data-Journalism/covidVaxTravelMap/main/cdcCovidCases.json")
   
   cdcCasesTable <- cdcCasesJSON %>% 
     extract2("US_MAP_DATA") %>%
@@ -192,7 +192,7 @@ covidCases <- tryCatch({
 ## COVID-19 vax rates
 covidVax <- tryCatch(
   {
-    cdcVax <- fromJSON(file = "https://raw.githubusercontent.com/anesta95/covidVaxTravelMap/main/cdcVaccines.json") %>% 
+    cdcVax <- fromJSON(file = "https://raw.githubusercontent.com/Dotdash-Data-Journalism/covidVaxTravelMap/main/cdcVaccines.json") %>% 
       extract2(2) %>%
       map_df(`[`) %>% 
       mutate(vax_date = base::as.Date(Date)) %>% 
