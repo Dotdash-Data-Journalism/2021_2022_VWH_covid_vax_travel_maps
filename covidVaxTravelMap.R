@@ -18,12 +18,12 @@ safe_extract <- function(l, wut) {
   res
 }
 
-republishChart <- function(DW_API, chartID, data, subtitle = NULL, notes) {
+republishChart <- function(API_KEY, chartID, data, subtitle = NULL, notes) {
   
   dataRefresh <- PUT(url = paste0("https://api.datawrapper.de/v3/charts/", 
                                   chartID, "/data"),
                      add_headers(authorization = paste("Bearer", 
-                                                       DW_API, 
+                                                       API_KEY, 
                                                        sep = " ")),
                      body = format_csv(data))
   
@@ -37,7 +37,7 @@ republishChart <- function(DW_API, chartID, data, subtitle = NULL, notes) {
   
   notesRes <- PATCH(url = paste0("https://api.datawrapper.de/v3/charts/", 
                                  chartID),
-                    add_headers(authorization = paste("Bearer", DW_API, 
+                    add_headers(authorization = paste("Bearer", API_KEY, 
                                                       sep = " ")),
                     body = call_back,
                     encode = "json")
@@ -46,7 +46,7 @@ republishChart <- function(DW_API, chartID, data, subtitle = NULL, notes) {
     url = paste0("https://api.datawrapper.de/v3/charts/", 
                  chartID, "/publish"),
     add_headers(authorization = paste("Bearer", 
-                                      DW_API, 
+                                      API_KEY, 
                                       sep = " "))
   )
   
@@ -220,10 +220,10 @@ cdcCases %>%
 write_csv(cdcFull, "cdcFull.csv")
 
 ### Updating DWs
-republishChart(DW_API = DW_API, chartID = "2rzuj", data = cdcFull, notes = paste0(
+republishChart(API_KEY = DW_API, chartID = "2rzuj", data = cdcFull, notes = paste0(
   "COVID-19 vaccination and mandate/restrictions data as of ", format(unique(cdcVax$vax_date), "%m/%d/%Y")
 ))
 
-republishChart(DW_API = DW_API, chartID = "1CpAe", data = cdcFull, notes = paste0(
+republishChart(API_KEY = DW_API, chartID = "1CpAe", data = cdcFull, notes = paste0(
   "COVID-19 case and mandate/restrictions data as of ", format(cdcUpdateDate, "%m/%d/%Y")
 ))
