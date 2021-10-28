@@ -43,12 +43,10 @@ jobs:
       # install c++ dependencies and install necessary packages
       - run: R -e 'renv::restore()'
       # execute Rscript
-      - name: execute R script
-        run: Rscript covidVaxTravelMap.R
+      - run: Rscript covidVaxTravelMap.R
         env: 
           DW_API_KEY: ${{ secrets.DW_API_KEY }}
       # push to git repo
-      - name: Git add/commit/push
       - run: |-
           git pull
           git config user.name "Automated"
