@@ -162,19 +162,23 @@ covidCases <- tryCatch({
   cdcUpdateDate <- cdcCasesJSON %>% 
     extract2("CSVInfo") %>% 
     extract2("update") %>% 
-    str_extract("\\w{3} \\d{2} \\d{4}") %>% 
+    str_extract("\\w{3}\\s+\\d{1,2}\\s+\\d{4}") %>% 
     as.Date(format = "%b %d %Y")
   
-  cdcCasesTable[which(cdcCasesTable$abbr == "NY"), "tot_cases"] <- sum(
-    pull(cdcCasesTable[which(cdcCasesTable$abbr == "NY"), "tot_cases"]), 
-    pull(cdcCasesTable[which(cdcCasesTable$abbr == "NYC"), "tot_cases"])
+  cdcCasesTable[which(cdcCasesTable$abbr == "NY"), "new_cases07"] <- sum(
+    pull(cdcCasesTable[which(cdcCasesTable$abbr == "NY"), "new_cases07"]), 
+    pull(cdcCasesTable[which(cdcCasesTable$abbr == "NYC"), "new_cases07"])
   )
   
+  cdcCasesTable[which(cdcCasesTable$abbr == "NY"), "Seven_day_cum_new_cases_per_100k"] <- round((pull(cdcCasesTable[which(cdcCasesTable$abbr == "NY"), "new_cases07"]) / filter(statePops, Location == "NY")$Census2019) * 100000, 1)
+    
+
+  
   cdcCases <- cdcCasesTable %>% 
-    select(abbr, tot_cases) %>% 
-    inner_join(statePops, by = c("abbr" = "Location")) %>% 
-    mutate(cases_per_100K = (tot_cases / Census2019) * 100000,
-           case_date = cdcUpdateDate) %>% 
+    select(abbr, Seven_day_cum_new_cases_per_100k) %>% 
+    inner_join(statePops, by = c("abbr" = "Location")) %>%
+    mutate(case_date = cdcUpdateDate) %>% 
+    rename(cases_per_100K = Seven_day_cum_new_cases_per_100k) %>% 
     select(abbr, LongName, cases_per_100K, case_date)
   
 }, error = function(cond) {
