@@ -2,7 +2,7 @@
   "CSVInfo": {
     "filename": "US_MAP_DATA",
     "update": "Nov 10 2021 12:47PM",
-    "disclaimer": "Case and Death data updated as of Nov 10 2021 12:47PM.  Testing data updated as of Nov 10 2021 12:57PM",
+    "disclaimer": "Case and Death data updated as of Nov 10 2021 12:47PM.  Testing data updated as of Nov 10 2021  4:15PM",
     "fieldpropertymap": [
       {
         "abbr": "abbr"
@@ -77,8 +77,8 @@
       "fips": "02",
       "name": "Alaska",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "374",
-      "us_trend_new_death": "28",
+      "us_trend_new_case": 374,
+      "us_trend_new_death": 28,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -103,8 +103,8 @@
       "fips": "01",
       "name": "Alabama",
       "state_level_community_transmission": "substantial",
-      "us_trend_new_case": "178",
-      "us_trend_new_death": "38",
+      "us_trend_new_case": 178,
+      "us_trend_new_death": 38,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -129,8 +129,8 @@
       "fips": "05",
       "name": "Arkansas",
       "state_level_community_transmission": "substantial",
-      "us_trend_new_case": "614",
-      "us_trend_new_death": "14",
+      "us_trend_new_case": 614,
+      "us_trend_new_death": 14,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -155,8 +155,8 @@
       "fips": "60",
       "name": "American Samoa",
       "state_level_community_transmission": "",
-      "us_trend_new_case": "null",
-      "us_trend_new_death": "null",
+      "us_trend_new_case": null,
+      "us_trend_new_death": null,
       "us_trend_maxdate": "null"
     },
     {
@@ -181,8 +181,8 @@
       "fips": "04",
       "name": "Arizona",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "3118",
-      "us_trend_new_death": "77",
+      "us_trend_new_case": 3118,
+      "us_trend_new_death": 77,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -207,8 +207,8 @@
       "fips": "06",
       "name": "California",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "3945",
-      "us_trend_new_death": "19",
+      "us_trend_new_case": 3945,
+      "us_trend_new_death": 19,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -233,8 +233,8 @@
       "fips": "08",
       "name": "Colorado",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "2514",
-      "us_trend_new_death": "21",
+      "us_trend_new_case": 2514,
+      "us_trend_new_death": 21,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -259,8 +259,8 @@
       "fips": "09",
       "name": "Connecticut",
       "state_level_community_transmission": "substantial",
-      "us_trend_new_case": "309",
-      "us_trend_new_death": "16",
+      "us_trend_new_case": 309,
+      "us_trend_new_death": 16,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -285,8 +285,8 @@
       "fips": "11",
       "name": "District of Columbia",
       "state_level_community_transmission": "substantial",
-      "us_trend_new_case": "44",
-      "us_trend_new_death": "0",
+      "us_trend_new_case": 44,
+      "us_trend_new_death": 0,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -311,8 +311,8 @@
       "fips": "10",
       "name": "Delaware",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "68",
-      "us_trend_new_death": "5",
+      "us_trend_new_case": 68,
+      "us_trend_new_death": 5,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -337,8 +337,8 @@
       "fips": "12",
       "name": "Florida",
       "state_level_community_transmission": "moderate",
-      "us_trend_new_case": "1446",
-      "us_trend_new_death": "0",
+      "us_trend_new_case": 1446,
+      "us_trend_new_death": 0,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -363,8 +363,8 @@
       "fips": "64",
       "name": "Federated States of Micronesia",
       "state_level_community_transmission": "",
-      "us_trend_new_case": "0",
-      "us_trend_new_death": "0",
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -389,8 +389,8 @@
       "fips": "13",
       "name": "Georgia",
       "state_level_community_transmission": "substantial",
-      "us_trend_new_case": "2909",
-      "us_trend_new_death": "164",
+      "us_trend_new_case": 2909,
+      "us_trend_new_death": 164,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -415,8 +415,8 @@
       "fips": "66",
       "name": "Guam",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "61",
-      "us_trend_new_death": "3",
+      "us_trend_new_case": 61,
+      "us_trend_new_death": 3,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -441,8 +441,8 @@
       "fips": "15",
       "name": "Hawaii",
       "state_level_community_transmission": "substantial",
-      "us_trend_new_case": "75",
-      "us_trend_new_death": "0",
+      "us_trend_new_case": 75,
+      "us_trend_new_death": 0,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -467,8 +467,8 @@
       "fips": "19",
       "name": "Iowa",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "1631",
-      "us_trend_new_death": "97",
+      "us_trend_new_case": 1631,
+      "us_trend_new_death": 97,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -493,8 +493,8 @@
       "fips": "16",
       "name": "Idaho",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "768",
-      "us_trend_new_death": "3",
+      "us_trend_new_case": 768,
+      "us_trend_new_death": 3,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -519,8 +519,8 @@
       "fips": "17",
       "name": "Illinois",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "2245",
-      "us_trend_new_death": "24",
+      "us_trend_new_case": 2245,
+      "us_trend_new_death": 24,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -545,8 +545,8 @@
       "fips": "18",
       "name": "Indiana",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "1968",
-      "us_trend_new_death": "60",
+      "us_trend_new_case": 1968,
+      "us_trend_new_death": 60,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -571,8 +571,8 @@
       "fips": "20",
       "name": "Kansas",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "590",
-      "us_trend_new_death": "0",
+      "us_trend_new_case": 590,
+      "us_trend_new_death": 0,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -597,8 +597,8 @@
       "fips": "21",
       "name": "Kentucky",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "180",
-      "us_trend_new_death": "0",
+      "us_trend_new_case": 180,
+      "us_trend_new_death": 0,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -623,8 +623,8 @@
       "fips": "22",
       "name": "Louisiana",
       "state_level_community_transmission": "substantial",
-      "us_trend_new_case": "474",
-      "us_trend_new_death": "27",
+      "us_trend_new_case": 474,
+      "us_trend_new_death": 27,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -649,8 +649,8 @@
       "fips": "25",
       "name": "Massachusetts",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "1539",
-      "us_trend_new_death": "24",
+      "us_trend_new_case": 1539,
+      "us_trend_new_death": 24,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -675,8 +675,8 @@
       "fips": "24",
       "name": "Maryland",
       "state_level_community_transmission": "substantial",
-      "us_trend_new_case": "844",
-      "us_trend_new_death": "15",
+      "us_trend_new_case": 844,
+      "us_trend_new_death": 15,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -701,8 +701,8 @@
       "fips": "23",
       "name": "Maine",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "881",
-      "us_trend_new_death": "2",
+      "us_trend_new_case": 881,
+      "us_trend_new_death": 2,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -727,8 +727,8 @@
       "fips": "26",
       "name": "Michigan",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "5297",
-      "us_trend_new_death": "47",
+      "us_trend_new_case": 5297,
+      "us_trend_new_death": 47,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -753,8 +753,8 @@
       "fips": "27",
       "name": "Minnesota",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "7165",
-      "us_trend_new_death": "20",
+      "us_trend_new_case": 7165,
+      "us_trend_new_death": 20,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -779,8 +779,8 @@
       "fips": "29",
       "name": "Missouri",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "1661",
-      "us_trend_new_death": "9",
+      "us_trend_new_case": 1661,
+      "us_trend_new_death": 9,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -805,8 +805,8 @@
       "fips": "69",
       "name": "Northern Mariana Islands",
       "state_level_community_transmission": "substantial",
-      "us_trend_new_case": "0",
-      "us_trend_new_death": "0",
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -831,8 +831,8 @@
       "fips": "28",
       "name": "Mississippi",
       "state_level_community_transmission": "substantial",
-      "us_trend_new_case": "360",
-      "us_trend_new_death": "25",
+      "us_trend_new_case": 360,
+      "us_trend_new_death": 25,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -857,8 +857,8 @@
       "fips": "30",
       "name": "Montana",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "1118",
-      "us_trend_new_death": "14",
+      "us_trend_new_case": 1118,
+      "us_trend_new_death": 14,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -883,8 +883,8 @@
       "fips": "37",
       "name": "North Carolina",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "1243",
-      "us_trend_new_death": "19",
+      "us_trend_new_case": 1243,
+      "us_trend_new_death": 19,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -909,8 +909,8 @@
       "fips": "38",
       "name": "North Dakota",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "643",
-      "us_trend_new_death": "6",
+      "us_trend_new_case": 643,
+      "us_trend_new_death": 6,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -935,8 +935,8 @@
       "fips": "31",
       "name": "Nebraska",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "958",
-      "us_trend_new_death": "2",
+      "us_trend_new_case": 958,
+      "us_trend_new_death": 2,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -961,8 +961,8 @@
       "fips": "33",
       "name": "New Hampshire",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "390",
-      "us_trend_new_death": "14",
+      "us_trend_new_case": 390,
+      "us_trend_new_death": 14,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -987,8 +987,8 @@
       "fips": "34",
       "name": "New Jersey",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "1764",
-      "us_trend_new_death": "27",
+      "us_trend_new_case": 1764,
+      "us_trend_new_death": 27,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1013,8 +1013,8 @@
       "fips": "35",
       "name": "New Mexico",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "1135",
-      "us_trend_new_death": "11",
+      "us_trend_new_case": 1135,
+      "us_trend_new_death": 11,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1039,8 +1039,8 @@
       "fips": "32",
       "name": "Nevada",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "795",
-      "us_trend_new_death": "19",
+      "us_trend_new_case": 795,
+      "us_trend_new_death": 19,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1065,8 +1065,8 @@
       "fips": "36",
       "name": "New York",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "3258",
-      "us_trend_new_death": "30",
+      "us_trend_new_case": 3258,
+      "us_trend_new_death": 30,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1091,8 +1091,8 @@
       "fips": "57",
       "name": "New York City",
       "state_level_community_transmission": "null",
-      "us_trend_new_case": "1061",
-      "us_trend_new_death": "25",
+      "us_trend_new_case": 1061,
+      "us_trend_new_death": 25,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1117,8 +1117,8 @@
       "fips": "39",
       "name": "Ohio",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "4952",
-      "us_trend_new_death": "215",
+      "us_trend_new_case": 4952,
+      "us_trend_new_death": 215,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1143,8 +1143,8 @@
       "fips": "40",
       "name": "Oklahoma",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "420",
-      "us_trend_new_death": "0",
+      "us_trend_new_case": 420,
+      "us_trend_new_death": 0,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1169,8 +1169,8 @@
       "fips": "41",
       "name": "Oregon",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "1104",
-      "us_trend_new_death": "35",
+      "us_trend_new_case": 1104,
+      "us_trend_new_death": 35,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1195,8 +1195,8 @@
       "fips": "42",
       "name": "Pennsylvania",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "4021",
-      "us_trend_new_death": "77",
+      "us_trend_new_case": 4021,
+      "us_trend_new_death": 77,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1221,8 +1221,8 @@
       "fips": "72",
       "name": "Puerto Rico",
       "state_level_community_transmission": "moderate",
-      "us_trend_new_case": "117",
-      "us_trend_new_death": "0",
+      "us_trend_new_case": 117,
+      "us_trend_new_death": 0,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1247,8 +1247,8 @@
       "fips": "70",
       "name": "Palau",
       "state_level_community_transmission": "low",
-      "us_trend_new_case": "0",
-      "us_trend_new_death": "0",
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1273,8 +1273,8 @@
       "fips": "44",
       "name": "Rhode Island",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "340",
-      "us_trend_new_death": "2",
+      "us_trend_new_case": 340,
+      "us_trend_new_death": 2,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1299,8 +1299,8 @@
       "fips": "68",
       "name": "Republic of Marshall Islands",
       "state_level_community_transmission": "low",
-      "us_trend_new_case": "0",
-      "us_trend_new_death": "0",
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1325,8 +1325,8 @@
       "fips": "45",
       "name": "South Carolina",
       "state_level_community_transmission": "substantial",
-      "us_trend_new_case": "380",
-      "us_trend_new_death": "2",
+      "us_trend_new_case": 380,
+      "us_trend_new_death": 2,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1351,8 +1351,8 @@
       "fips": "46",
       "name": "South Dakota",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "871",
-      "us_trend_new_death": "3",
+      "us_trend_new_case": 871,
+      "us_trend_new_death": 3,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1377,8 +1377,8 @@
       "fips": "47",
       "name": "Tennessee",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "1114",
-      "us_trend_new_death": "45",
+      "us_trend_new_case": 1114,
+      "us_trend_new_death": 45,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1403,8 +1403,8 @@
       "fips": "48",
       "name": "Texas",
       "state_level_community_transmission": "substantial",
-      "us_trend_new_case": "5359",
-      "us_trend_new_death": "96",
+      "us_trend_new_case": 5359,
+      "us_trend_new_death": 96,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1429,8 +1429,8 @@
       "fips": "49",
       "name": "Utah",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "1558",
-      "us_trend_new_death": "13",
+      "us_trend_new_case": 1558,
+      "us_trend_new_death": 13,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1455,8 +1455,8 @@
       "fips": "51",
       "name": "Virginia",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "1407",
-      "us_trend_new_death": "36",
+      "us_trend_new_case": 1407,
+      "us_trend_new_death": 36,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1481,8 +1481,8 @@
       "fips": "78",
       "name": "Virgin Islands",
       "state_level_community_transmission": "substantial",
-      "us_trend_new_case": "3",
-      "us_trend_new_death": "0",
+      "us_trend_new_case": 3,
+      "us_trend_new_death": 0,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1507,8 +1507,8 @@
       "fips": "50",
       "name": "Vermont",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "0",
-      "us_trend_new_death": "0",
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1533,8 +1533,8 @@
       "fips": "53",
       "name": "Washington",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "1445",
-      "us_trend_new_death": "31",
+      "us_trend_new_case": 1445,
+      "us_trend_new_death": 31,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1559,8 +1559,8 @@
       "fips": "55",
       "name": "Wisconsin",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "3914",
-      "us_trend_new_death": "26",
+      "us_trend_new_case": 3914,
+      "us_trend_new_death": 26,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1585,8 +1585,8 @@
       "fips": "54",
       "name": "West Virginia",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "259",
-      "us_trend_new_death": "20",
+      "us_trend_new_case": 259,
+      "us_trend_new_death": 20,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1611,8 +1611,8 @@
       "fips": "56",
       "name": "Wyoming",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "297",
-      "us_trend_new_death": "55",
+      "us_trend_new_case": 297,
+      "us_trend_new_death": 55,
       "us_trend_maxdate": "2021-11-09"
     },
     {
@@ -1637,8 +1637,8 @@
       "fips": "00",
       "name": "United States of America",
       "state_level_community_transmission": "high",
-      "us_trend_new_case": "81184",
-      "us_trend_new_death": "1561",
+      "us_trend_new_case": 81184,
+      "us_trend_new_death": 1561,
       "us_trend_maxdate": "2021-11-09"
     },
     {
