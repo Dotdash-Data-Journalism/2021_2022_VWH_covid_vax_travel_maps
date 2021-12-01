@@ -8,6 +8,8 @@ library(magrittr)
 library(rjson)
 library(stringi)
 library(rlang)
+library(xml2)
+library(rvest)
 
 DW_API <- Sys.getenv("DW_API_KEY")
 
@@ -215,6 +217,29 @@ covidVax <- tryCatch(
   }
 )
 
+kffDate <- tryCatch(
+  {
+    read_html("https://www.kff.org/report-section/state-covid-19-data-and-policy-actions-policy-actions/") %>% 
+      html_node(css = ".byline") %>% 
+      html_element("span") %>% 
+      html_text() -> kffTextDate
+    
+    kffTextDate %>% 
+      str_extract("\\w{3}\\s+\\d{1,2},\\s+\\d{4}") %>% 
+      strptime(format = "%b %d, %Y", tz = "GMT") %>% 
+      base::as.Date() -> kffDate
+    
+  }, error = function(cond) {
+    condFull <- error_cnd(class = "kffDateError", message = paste("An error occured with the update:", 
+                                                                   cond, "on", Sys.Date(), "\n"
+    ))
+    
+    write(condFull[["message"]], "./errorLog.txt", append = T)
+    
+    return(condFull)
+  }
+)
+
 ## Joining
 cdcCases %>%
   inner_join(cdcVax, by = c("abbr" = "Location", "LongName" = "LongName")) %>% 
@@ -225,9 +250,15 @@ write_csv(cdcFull, "cdcFull.csv")
 
 ### Updating DWs
 republishChart(API_KEY = DW_API, chartID = "2rzuj", data = cdcFull, notes = paste0(
-  "COVID-19 vaccination and mandate/restrictions data as of ", format(unique(cdcVax$vax_date), "%m/%d/%Y")
+  "COVID-19 vaccination data as of ", 
+  format(unique(cdcVax$vax_date), "%m/%d/%Y"),  
+  " and mandate/restrictions data as of ", 
+  format(kffDate, "%m/%d/%Y")
 ))
 
 republishChart(API_KEY = DW_API, chartID = "1CpAe", data = cdcFull, notes = paste0(
-  "COVID-19 case and mandate/restrictions data as of ", format(cdcUpdateDate, "%m/%d/%Y")
+  "COVID-19 vaccination data as of ", 
+  format(unique(cdcVax$case_date), "%m/%d/%Y"),  
+  " and mandate/restrictions data as of ", 
+  format(kffDate, "%m/%d/%Y")
 ))
