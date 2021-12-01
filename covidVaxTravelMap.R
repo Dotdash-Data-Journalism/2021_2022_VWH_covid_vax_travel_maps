@@ -251,14 +251,14 @@ write_csv(cdcFull, "cdcFull.csv")
 ### Updating DWs
 republishChart(API_KEY = DW_API, chartID = "2rzuj", data = cdcFull, notes = paste0(
   "COVID-19 vaccination data as of ", 
-  format(unique(cdcVax$vax_date), "%m/%d/%Y"),  
+  format(unique(cdcFull$vax_date), "%m/%d/%Y"),  
   " and mandate/restrictions data as of ", 
   format(kffDate, "%m/%d/%Y")
 ))
 
 republishChart(API_KEY = DW_API, chartID = "1CpAe", data = cdcFull, notes = paste0(
   "COVID-19 vaccination data as of ", 
-  format(unique(cdcVax$case_date), "%m/%d/%Y"),  
+  format(unique(cdcFull$case_date), "%m/%d/%Y"),  
   " and mandate/restrictions data as of ", 
   format(kffDate, "%m/%d/%Y")
 ))
