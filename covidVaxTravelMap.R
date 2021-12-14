@@ -100,6 +100,15 @@ map_chr(content(kffTree)$tree, 'path') %>%
 
 latestCovidVaxMandateFile <- paste0("https://raw.githubusercontent.com/KFFData/COVID-19-Data/kff_master/State%20Policy%20Actions/State%20COVID-19%20Vaccine%20Mandates/Detailed%20Table%20Categories/",
                                     latestCovidVaxMandateFileSuffix)
+
+map_chr(content(kffTree)$tree, 'path') %>% 
+  str_subset('State Policy Actions/State Social Distancing Actions/(.*)') %>% 
+  str_match("\\d{4}-\\d{1,2}-\\d{1,2}.*") %>% 
+  sort(decreasing = T) %>% 
+  nth(1) -> latestCovidSDMandateFileSuffix
+
+latestCovidSDMandateFile <- paste0("https://raw.githubusercontent.com/KFFData/COVID-19-Data/kff_master/State%20Policy%20Actions/State%20Social%20Distancing%20Actions/",
+                                    latestCovidSDMandateFileSuffix)
   
 
 stateConversion <- tibble(
@@ -112,9 +121,10 @@ kffVaxDwnld <- tryCatch(
   {
     read_csv(file = latestCovidVaxMandateFile, col_names = c(
       "state_full_name", "Any Mandate in Place?", "Description of Mandate"
-    ), col_types = "ccc") %>% 
-      rename_with(make_clean_names, .cols = everything()) %>% 
+    ), col_types = "ccc") %>%
+      rename_with(make_clean_names, .cols = everything()) %>%
       filter(state_full_name != "United States") -> vaxMandates
+    
   }, error = function(cond) {
     condFull <- error_cnd(class = "kffVaxUrlError", message = paste("An error occured with the update:", 
                                                                     cond, "on", Sys.Date(), "\n"
@@ -129,10 +139,11 @@ kffVaxDwnld <- tryCatch(
 
 kffMaskDwnld <- tryCatch(
   {
-    read_csv(file = "https://raw.githubusercontent.com/KFFData/COVID-19-Data/kff_master/State%20Policy%20Actions/State%20Social%20Distancing%20Actions/Master%20File_Social%20Distancing.csv",
+    # The got rid of the master file as of 12/08/21
+    read_csv(file = latestCovidSDMandateFile,
              col_names = c(
                "state_full_name", "statewide_face_mask_requirement", "emergency_declaration", "status_of_reopening"
-             ), col_types = "cccc") %>% 
+             ), col_types = "cccc", skip = 1) %>% 
       rename_with(make_clean_names, .cols = everything()) %>% 
       filter(state_full_name != "United States") -> maskSocialDistancingMandates
   }, error = function(cond) {
