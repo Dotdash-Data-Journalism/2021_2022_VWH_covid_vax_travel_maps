@@ -1,3 +1,5 @@
+# Interactive Holiday Travel Map for Verywell Health
+
 This repository runs two YAML files in the .github/workflows directory: `cdcScrape.yml` and `runChartUpdate.yml`.
 
 The former YAML file runs on a cron schedule on the 33rd minute of every hour that will download the JSON of the latest COVID-19 [case](https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=US_MAP_DATA) and [vaccination](https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data) rate data for US states from the [CDC Covid Tracker](https://covid.cdc.gov/covid-data-tracker/#datatracker-home) and pretty-prints them to files called `cdcCovidCases.json` and `cdcVaccines.json`, respectively. It will then commit only new versions of these JSON files to the repository.
