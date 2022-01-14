@@ -134,14 +134,14 @@
       "Series_Complete_Pfizer_5Plus": 118013871,
       "Series_Complete_Janssen_5Plus": 16479917,
       "Series_Complete_Unk_Manuf_5Plus": 130763,
-      "Booster_Eligible_NotBoosted": 64991552,
-      "Booster_Eligible_NotBoosted_Pct": 53.9,
-      "Booster_Eligible_NotBoosted_18Plus": 59137335,
-      "Booster_Eligible_NotBoosted_18Plus_Pct": 52.1,
-      "Booster_Eligible_NotBoosted_50Plus": 26445449,
-      "Booster_Eligible_NotBoosted_50Plus_Pct": 42.3,
-      "Booster_Eligible_NotBoosted_65Plus": 11435166,
-      "Booster_Eligible_NotBoosted_65Plus_Pct": 36
+      "Booster_Eligible_NotBoosted": 87635923,
+      "Booster_Eligible_NotBoosted_Pct": 54.7,
+      "Booster_Eligible_NotBoosted_18Plus": 80772313,
+      "Booster_Eligible_NotBoosted_18Plus_Pct": 53.2,
+      "Booster_Eligible_NotBoosted_50Plus": 36422562,
+      "Booster_Eligible_NotBoosted_50Plus_Pct": 43.6,
+      "Booster_Eligible_NotBoosted_65Plus": 15741076,
+      "Booster_Eligible_NotBoosted_65Plus_Pct": 37.4
     },
     {
       "Date": "2022-01-13",
