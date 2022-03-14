@@ -1,8 +1,8 @@
 {
   "CSVInfo": {
     "filename": "US_MAP_DATA",
-    "update": "Mar 12 2022  5:05PM",
-    "disclaimer": "Case and Death data updated as of Mar 12 2022  5:05PM.  Testing data updated as of Mar 12 2022  5:09PM",
+    "update": "Mar 13 2022  6:25PM",
+    "disclaimer": "Case and Death data updated as of Mar 13 2022  6:25PM.  Testing data updated as of Mar 13 2022  6:30PM",
     "fieldpropertymap": [
       {
         "abbr": "abbr"
@@ -1569,7 +1569,7 @@
       "conf_death": 472525,
       "prob_death": 64727,
       "death_100k": 290,
-      "incidence": 23883,
+      "incidence": 23895,
       "id": 0,
       "fips": "00",
       "name": "United States of America",
