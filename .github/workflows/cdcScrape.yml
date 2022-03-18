@@ -17,8 +17,8 @@ jobs:
         fetch-depth: 0
     - name: Fetch latest data
       run: |-
-        curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=US_MAP_DATA | jq . > cdcCovidCases.json
-        curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data | jq . > cdcVaccines.json
+        curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=US_MAP_DATA | jq . > ./data/cdcCovidCases.json
+        curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data | jq . > ./data/cdcVaccines.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"

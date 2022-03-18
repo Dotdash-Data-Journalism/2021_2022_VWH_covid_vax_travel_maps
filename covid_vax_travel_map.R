@@ -166,7 +166,7 @@ vaxMandates %>%
 
 ## COVID-19 cases
 covidCases <- tryCatch({
-  cdcCasesJSON <- fromJSON(file = "https://raw.githubusercontent.com/Dotdash-Data-Journalism/covidVaxTravelMap/main/cdcCovidCases.json")
+  cdcCasesJSON <- fromJSON(file = "https://raw.githubusercontent.com/Dotdash-Data-Journalism/covidVaxTravelMap/main/data/cdcCovidCases.json")
   
   cdcCasesTable <- cdcCasesJSON %>% 
     extract2("US_MAP_DATA") %>%
@@ -209,7 +209,7 @@ covidCases <- tryCatch({
 ## COVID-19 vax rates
 covidVax <- tryCatch(
   {
-    cdcVax <- fromJSON(file = "https://raw.githubusercontent.com/Dotdash-Data-Journalism/covidVaxTravelMap/main/cdcVaccines.json") %>% 
+    cdcVax <- fromJSON(file = "https://raw.githubusercontent.com/Dotdash-Data-Journalism/covidVaxTravelMap/main/data/cdcVaccines.json") %>% 
       extract2(2) %>%
       map_df(`[`) %>% 
       mutate(vax_date = base::as.Date(Date)) %>% 
@@ -257,7 +257,7 @@ cdcCases %>%
   inner_join(allRestrictions, by = c("LongName" = "state_full_name")) -> cdcFull
 
 ## Writing
-write_csv(cdcFull, "cdcFull.csv")
+write_csv(cdcFull, "./visualizations/cdcFull.csv")
 
 ### Updating DWs
 republishChart(API_KEY = DW_API, chartID = "2rzuj", data = cdcFull, notes = paste0(

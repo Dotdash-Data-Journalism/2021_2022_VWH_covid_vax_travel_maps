@@ -28,7 +28,7 @@ jobs:
       - name: setup-r
         uses: r-lib/actions/setup-r@v2
         with:
-          r-version: '4.0.3'
+          r-version: '4.1.2'
       # install renv package
       - run: R -e 'install.packages("renv")'
       # set up cache
@@ -43,7 +43,7 @@ jobs:
       # install c++ dependencies and install necessary packages
       - run: R -e 'renv::restore()'
       # execute Rscript
-      - run: Rscript covidVaxTravelMap.R
+      - run: Rscript covid_vax_travel_map.R
         env: 
           DW_API_KEY: ${{ secrets.DW_API_KEY }}
       # push to git repo
