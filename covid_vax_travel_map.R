@@ -77,40 +77,44 @@ getGHTree <- function(url) {
 statePops <- read_csv(file = "./data/statePops.csv", col_names = T, 
                       col_types = "cci")
 
-kffFetch <- tryCatch(
-  {
-    kffTree <- getGHTree("https://api.github.com/repos/KFFData/COVID-19-Data/git/trees/kff_master?recursive=1")
-  }, error = function(cond) {
-    condFull <- error_cnd(class = "kffGithubError", message = paste("An error occured with the update:", 
-                                                                        cond, "on", Sys.Date(), "\n"
-    ))
-    
-    write(condFull[["message"]], "./errorLog.txt", append = T)
-    message(condFull[["message"]])
-    
-    return(condFull)
-  }
-)
+# kffFetch <- tryCatch(
+#   {
+#     kffTree <- getGHTree("https://api.github.com/repos/KFFData/COVID-19-Data/git/trees/kff_master?recursive=1")
+#   }, error = function(cond) {
+#     condFull <- error_cnd(class = "kffGithubError", message = paste("An error occured with the update:", 
+#                                                                         cond, "on", Sys.Date(), "\n"
+#     ))
+#     
+#     write(condFull[["message"]], "./errorLog.txt", append = T)
+#     message(condFull[["message"]])
+#     
+#     return(condFull)
+#   }
+# )
 
 
-map_chr(content(kffTree)$tree, 'path') %>% 
-  str_subset('State Policy Actions/State COVID-19 Vaccine Mandates/Detailed Table Categories/(.*)') %>% 
-  str_match("\\d{4}-\\d{2}-\\d{2}.*") %>% 
-  sort(decreasing = T) %>% 
-  nth(1) -> latestCovidVaxMandateFileSuffix
+# map_chr(content(kffTree)$tree, 'path') %>% 
+#   str_subset('State Policy Actions/State COVID-19 Vaccine Mandates/Detailed Table Categories/(.*)') %>% 
+#   str_match("\\d{4}-\\d{2}-\\d{2}.*") %>% 
+#   sort(decreasing = T) %>% 
+#   nth(1) -> latestCovidVaxMandateFileSuffix
 
-latestCovidVaxMandateFile <- paste0("https://raw.githubusercontent.com/KFFData/COVID-19-Data/kff_master/State%20Policy%20Actions/State%20COVID-19%20Vaccine%20Mandates/Detailed%20Table%20Categories/",
-                                    latestCovidVaxMandateFileSuffix)
+# latestCovidVaxMandateFile <- paste0("https://raw.githubusercontent.com/KFFData/COVID-19-Data/kff_master/State%20Policy%20Actions/State%20COVID-19%20Vaccine%20Mandates/Detailed%20Table%20Categories/",
+#                                     latestCovidVaxMandateFileSuffix)
 
-map_chr(content(kffTree)$tree, 'path') %>% 
-  str_subset('State Policy Actions/State Social Distancing Actions/(.*)') %>% 
-  str_match("\\d{4}-\\d{1,2}-\\d{1,2}.*") %>% 
-  sort(decreasing = T) %>% 
-  nth(1) -> latestCovidSDMandateFileSuffix
+latestCovidVaxMandateFile <- "https://raw.githubusercontent.com/KFFData/COVID-19-Data/kff_master/State%20Policy%20Actions/State%20COVID-19%20Vaccine%20Mandates/Detailed%20Table%20Categories/2021-09-21_COVID-19_Vaccine_Mandates_Table.csv"
 
-latestCovidSDMandateFile <- paste0("https://raw.githubusercontent.com/KFFData/COVID-19-Data/kff_master/State%20Policy%20Actions/State%20Social%20Distancing%20Actions/",
-                                    latestCovidSDMandateFileSuffix)
-  
+
+# map_chr(content(kffTree)$tree, 'path') %>% 
+#   str_subset('State Policy Actions/State Social Distancing Actions/(.*)') %>% 
+#   str_match("\\d{4}-\\d{1,2}-\\d{1,2}.*") %>% 
+#   sort(decreasing = T) %>% 
+#   nth(1) -> latestCovidSDMandateFileSuffix
+
+# latestCovidSDMandateFile <- paste0("https://raw.githubusercontent.com/KFFData/COVID-19-Data/kff_master/State%20Policy%20Actions/State%20Social%20Distancing%20Actions/",
+#                                     latestCovidSDMandateFileSuffix)
+
+latestCovidSDMandateFile <- "https://raw.githubusercontent.com/KFFData/COVID-19-Data/kff_master/State%20Policy%20Actions/State%20Social%20Distancing%20Actions/Master%20File_Social%20Distancing.csv"
 
 stateConversion <- tibble(
   state_full_name = c(state.name, "District of Columbia"),
