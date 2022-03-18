@@ -74,7 +74,7 @@ getGHTree <- function(url) {
   return(req)
 }
 
-statePops <- read_csv(file = "statePops.csv", col_names = T, 
+statePops <- read_csv(file = "./data/statePops.csv", col_names = T, 
                       col_types = "cci")
 
 kffFetch <- tryCatch(
