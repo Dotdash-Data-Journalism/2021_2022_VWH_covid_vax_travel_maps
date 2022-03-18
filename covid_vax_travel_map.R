@@ -86,6 +86,7 @@ kffFetch <- tryCatch(
     ))
     
     write(condFull[["message"]], "./errorLog.txt", append = T)
+    message(condFull[["message"]])
     
     return(condFull)
   }
@@ -131,6 +132,7 @@ kffVaxDwnld <- tryCatch(
     ))
     
     write(condFull[["message"]], "./errorLog.txt", append = T)
+    message(condFull[["message"]])
     
     return(condFull)
   }
@@ -152,6 +154,7 @@ kffMaskDwnld <- tryCatch(
     ))
     
     write(condFull[["message"]], "./errorLog.txt", append = T)
+    message(condFull[["message"]])
     
     return(condFull)
   }
@@ -200,6 +203,7 @@ covidCases <- tryCatch({
   ))
   
   write(condFull[["message"]], "./errorLog.txt", append = T)
+  message(condFull[["message"]])
   
   return(condFull)
 })
@@ -223,6 +227,8 @@ covidVax <- tryCatch(
     ))
     
     write(condFull[["message"]], "./errorLog.txt", append = T)
+    message(condFull[["message"]])
+    
     
     return(condFull)
   }
@@ -246,6 +252,7 @@ kffDate <- tryCatch(
     ))
     
     write(condFull[["message"]], "./errorLog.txt", append = T)
+    message(condFull[["message"]])
     
     return(condFull)
   }
