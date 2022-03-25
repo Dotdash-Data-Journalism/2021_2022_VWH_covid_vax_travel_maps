@@ -1,8 +1,8 @@
 {
   "CSVInfo": {
     "filename": "US_MAP_DATA",
-    "update": "Mar 24 2022  4:56PM",
-    "disclaimer": "Case and Death data updated as of Mar 24 2022  4:56PM.  Testing data updated as of Mar 24 2022  5:12PM",
+    "update": "Mar 24 2022  8:12PM",
+    "disclaimer": "Case and Death data updated as of Mar 24 2022  8:12PM.  Testing data updated as of Mar 24 2022  8:16PM",
     "fieldpropertymap": [
       {
         "abbr": "abbr"
@@ -148,9 +148,9 @@
       "id": 60,
       "fips": "60",
       "name": "American Samoa",
-      "us_trend_new_case": null,
-      "us_trend_new_death": null,
-      "us_trend_maxdate": "null"
+      "us_trend_new_case": 367,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-03-23"
     },
     {
       "abbr": "AZ",
