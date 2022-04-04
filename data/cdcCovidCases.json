@@ -1,8 +1,8 @@
 {
   "CSVInfo": {
     "filename": "US_MAP_DATA",
-    "update": "Apr  3 2022  1:07PM",
-    "disclaimer": "Case and Death data updated as of Apr  3 2022  1:07PM.  Testing data updated as of Apr  3 2022  1:12PM",
+    "update": "Apr  4 2022  1:28PM",
+    "disclaimer": "Case and Death data updated as of Apr  4 2022  1:28PM.  Testing data updated as of Apr  4 2022  1:36PM",
     "fieldpropertymap": [
       {
         "abbr": "abbr"
@@ -73,84 +73,84 @@
       "id": 2,
       "fips": "02",
       "name": "Alaska",
-      "us_trend_new_case": 517,
+      "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "AL",
-      "tot_cases": 1295761,
+      "tot_cases": 1295898,
       "tot_cases_last_24_hours": 0,
-      "conf_cases": 932526,
-      "prob_cases": 363235,
-      "new_cases07": 1408,
-      "new_deaths07": 45,
-      "Seven_day_avg_new_cases_per_100k": 4.1,
-      "Seven_day_avg_new_deaths_per_100k": 0.1,
-      "Seven_day_cum_new_cases_per_100k": 28.7,
-      "Seven_day_cum_new_deaths_per_100k": 0.9,
+      "conf_cases": 932646,
+      "prob_cases": 363252,
+      "new_cases07": 1423,
+      "new_deaths07": 4,
+      "Seven_day_avg_new_cases_per_100k": 4.2,
+      "Seven_day_avg_new_deaths_per_100k": 0,
+      "Seven_day_cum_new_cases_per_100k": 29,
+      "Seven_day_cum_new_deaths_per_100k": 0.1,
       "tot_death": 19334,
       "tot_death_last_24_hours": 0,
       "conf_death": 14842,
       "prob_death": 4492,
       "death_100k": 394,
-      "incidence": 26427,
+      "incidence": 26430,
       "id": 1,
       "fips": "01",
       "name": "Alabama",
-      "us_trend_new_case": 287,
-      "us_trend_new_death": 21,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 53,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "AR",
-      "tot_cases": 833029,
+      "tot_cases": 833128,
       "tot_cases_last_24_hours": 0,
       "conf_cases": 0,
       "prob_cases": 0,
-      "new_cases07": 635,
-      "new_deaths07": 34,
-      "Seven_day_avg_new_cases_per_100k": 3,
-      "Seven_day_avg_new_deaths_per_100k": 0.2,
-      "Seven_day_cum_new_cases_per_100k": 21,
-      "Seven_day_cum_new_deaths_per_100k": 1.1,
-      "tot_death": 11237,
+      "new_cases07": 575,
+      "new_deaths07": 55,
+      "Seven_day_avg_new_cases_per_100k": 2.7,
+      "Seven_day_avg_new_deaths_per_100k": 0.3,
+      "Seven_day_cum_new_cases_per_100k": 19.1,
+      "Seven_day_cum_new_deaths_per_100k": 1.8,
+      "tot_death": 11265,
       "tot_death_last_24_hours": 0,
       "conf_death": null,
       "prob_death": null,
-      "death_100k": 372,
-      "incidence": 27604,
+      "death_100k": 373,
+      "incidence": 27607,
       "id": 5,
       "fips": "05",
       "name": "Arkansas",
-      "us_trend_new_case": 107,
-      "us_trend_new_death": 7,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 38,
+      "us_trend_new_death": 14,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "AS",
-      "tot_cases": 3817,
+      "tot_cases": 4535,
       "tot_cases_last_24_hours": 0,
       "conf_cases": 0,
       "prob_cases": 0,
-      "new_cases07": 1555,
-      "new_deaths07": 3,
-      "Seven_day_avg_new_cases_per_100k": 468.7,
-      "Seven_day_avg_new_deaths_per_100k": 0.9,
-      "Seven_day_cum_new_cases_per_100k": 3281.1,
-      "Seven_day_cum_new_deaths_per_100k": 6.3,
-      "tot_death": 4,
+      "new_cases07": 1257,
+      "new_deaths07": 5,
+      "Seven_day_avg_new_cases_per_100k": 378.9,
+      "Seven_day_avg_new_deaths_per_100k": 1.5,
+      "Seven_day_cum_new_cases_per_100k": 2652.4,
+      "Seven_day_cum_new_deaths_per_100k": 10.6,
+      "tot_death": 7,
       "tot_death_last_24_hours": 0,
       "conf_death": null,
       "prob_death": null,
-      "death_100k": 8,
-      "incidence": 8054,
+      "death_100k": 14,
+      "incidence": 9569,
       "id": 60,
       "fips": "60",
       "name": "American Samoa",
-      "us_trend_new_case": 0,
-      "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 718,
+      "us_trend_new_death": 3,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "AZ",
@@ -175,7 +175,7 @@
       "name": "Arizona",
       "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "CA",
@@ -198,9 +198,9 @@
       "id": 6,
       "fips": "06",
       "name": "California",
-      "us_trend_new_case": 4026,
-      "us_trend_new_death": 92,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "CO",
@@ -208,11 +208,11 @@
       "tot_cases_last_24_hours": 0,
       "conf_cases": 1227295,
       "prob_cases": 120786,
-      "new_cases07": 2099,
+      "new_cases07": 1537,
       "new_deaths07": 26,
-      "Seven_day_avg_new_cases_per_100k": 5.2,
+      "Seven_day_avg_new_cases_per_100k": 3.8,
       "Seven_day_avg_new_deaths_per_100k": 0.1,
-      "Seven_day_cum_new_cases_per_100k": 36.5,
+      "Seven_day_cum_new_cases_per_100k": 26.7,
       "Seven_day_cum_new_deaths_per_100k": 0.5,
       "tot_death": 11977,
       "tot_death_last_24_hours": 0,
@@ -223,9 +223,9 @@
       "id": 8,
       "fips": "08",
       "name": "Colorado",
-      "us_trend_new_case": 400,
-      "us_trend_new_death": 3,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "CT",
@@ -248,9 +248,9 @@
       "id": 9,
       "fips": "09",
       "name": "Connecticut",
-      "us_trend_new_case": 501,
-      "us_trend_new_death": 3,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "DC",
@@ -275,57 +275,57 @@
       "name": "District of Columbia",
       "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "DE",
-      "tot_cases": 259746,
+      "tot_cases": 259927,
       "tot_cases_last_24_hours": 0,
-      "conf_cases": 236344,
-      "prob_cases": 23402,
-      "new_cases07": 561,
-      "new_deaths07": 9,
-      "Seven_day_avg_new_cases_per_100k": 8.2,
-      "Seven_day_avg_new_deaths_per_100k": 0.1,
-      "Seven_day_cum_new_cases_per_100k": 57.6,
-      "Seven_day_cum_new_deaths_per_100k": 0.9,
-      "tot_death": 2846,
+      "conf_cases": 236501,
+      "prob_cases": 23426,
+      "new_cases07": 553,
+      "new_deaths07": 24,
+      "Seven_day_avg_new_cases_per_100k": 8.1,
+      "Seven_day_avg_new_deaths_per_100k": 0.4,
+      "Seven_day_cum_new_cases_per_100k": 56.8,
+      "Seven_day_cum_new_deaths_per_100k": 2.5,
+      "tot_death": 2870,
       "tot_death_last_24_hours": 0,
-      "conf_death": 2574,
-      "prob_death": 272,
-      "death_100k": 292,
-      "incidence": 26674,
+      "conf_death": 2589,
+      "prob_death": 281,
+      "death_100k": 294,
+      "incidence": 26693,
       "id": 10,
       "fips": "10",
       "name": "Delaware",
-      "us_trend_new_case": 99,
+      "us_trend_new_case": 79,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "FL",
-      "tot_cases": 5853175,
+      "tot_cases": 5855342,
       "tot_cases_last_24_hours": 0,
       "conf_cases": 0,
       "prob_cases": 0,
-      "new_cases07": 10358,
-      "new_deaths07": 26,
-      "Seven_day_avg_new_cases_per_100k": 6.9,
+      "new_cases07": 10609,
+      "new_deaths07": 29,
+      "Seven_day_avg_new_cases_per_100k": 7.1,
       "Seven_day_avg_new_deaths_per_100k": 0,
-      "Seven_day_cum_new_cases_per_100k": 48.2,
+      "Seven_day_cum_new_cases_per_100k": 49.4,
       "Seven_day_cum_new_deaths_per_100k": 0.1,
-      "tot_death": 73290,
+      "tot_death": 73409,
       "tot_death_last_24_hours": 0,
       "conf_death": null,
       "prob_death": null,
       "death_100k": 341,
-      "incidence": 27252,
+      "incidence": 27262,
       "id": 12,
       "fips": "12",
       "name": "Florida",
-      "us_trend_new_case": 1657,
+      "us_trend_new_case": 1004,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "FSM",
@@ -350,7 +350,7 @@
       "name": "Federated States of Micronesia",
       "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "GA",
@@ -373,34 +373,34 @@
       "id": 13,
       "fips": "13",
       "name": "Georgia",
-      "us_trend_new_case": 478,
-      "us_trend_new_death": 70,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "GU",
-      "tot_cases": 47330,
+      "tot_cases": 47386,
       "tot_cases_last_24_hours": 0,
       "conf_cases": 0,
       "prob_cases": 0,
-      "new_cases07": 252,
-      "new_deaths07": 9,
-      "Seven_day_avg_new_cases_per_100k": 21.4,
-      "Seven_day_avg_new_deaths_per_100k": 0.8,
-      "Seven_day_cum_new_cases_per_100k": 149.6,
-      "Seven_day_cum_new_deaths_per_100k": 5.3,
-      "tot_death": 349,
+      "new_cases07": 264,
+      "new_deaths07": 8,
+      "Seven_day_avg_new_cases_per_100k": 22.4,
+      "Seven_day_avg_new_deaths_per_100k": 0.7,
+      "Seven_day_cum_new_cases_per_100k": 156.7,
+      "Seven_day_cum_new_deaths_per_100k": 4.8,
+      "tot_death": 350,
       "tot_death_last_24_hours": 0,
       "conf_death": null,
       "prob_death": null,
       "death_100k": 207,
-      "incidence": 28091,
+      "incidence": 28124,
       "id": 66,
       "fips": "66",
       "name": "Guam",
-      "us_trend_new_case": 19,
-      "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 49,
+      "us_trend_new_death": 1,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "HI",
@@ -425,7 +425,7 @@
       "name": "Hawaii",
       "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "IA",
@@ -448,9 +448,9 @@
       "id": 19,
       "fips": "19",
       "name": "Iowa",
-      "us_trend_new_case": 585,
+      "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "ID",
@@ -473,9 +473,9 @@
       "id": 16,
       "fips": "16",
       "name": "Idaho",
-      "us_trend_new_case": 208,
-      "us_trend_new_death": 3,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "IL",
@@ -498,9 +498,9 @@
       "id": 17,
       "fips": "17",
       "name": "Illinois",
-      "us_trend_new_case": 1413,
-      "us_trend_new_death": 17,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "IN",
@@ -523,9 +523,9 @@
       "id": 18,
       "fips": "18",
       "name": "Indiana",
-      "us_trend_new_case": 420,
-      "us_trend_new_death": 27,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "KS",
@@ -548,9 +548,9 @@
       "id": 20,
       "fips": "20",
       "name": "Kansas",
-      "us_trend_new_case": 193,
-      "us_trend_new_death": 103,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "KY",
@@ -558,11 +558,11 @@
       "tot_cases_last_24_hours": 0,
       "conf_cases": 898711,
       "prob_cases": 416962,
-      "new_cases07": 2643,
+      "new_cases07": 2396,
       "new_deaths07": 60,
-      "Seven_day_avg_new_cases_per_100k": 8.5,
+      "Seven_day_avg_new_cases_per_100k": 7.7,
       "Seven_day_avg_new_deaths_per_100k": 0.2,
-      "Seven_day_cum_new_cases_per_100k": 59.2,
+      "Seven_day_cum_new_cases_per_100k": 53.6,
       "Seven_day_cum_new_deaths_per_100k": 1.3,
       "tot_death": 14988,
       "tot_death_last_24_hours": 0,
@@ -573,9 +573,9 @@
       "id": 21,
       "fips": "21",
       "name": "Kentucky",
-      "us_trend_new_case": 488,
-      "us_trend_new_death": 23,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "LA",
@@ -598,9 +598,9 @@
       "id": 22,
       "fips": "22",
       "name": "Louisiana",
-      "us_trend_new_case": 73,
-      "us_trend_new_death": 11,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "MA",
@@ -623,9 +623,9 @@
       "id": 25,
       "fips": "25",
       "name": "Massachusetts",
-      "us_trend_new_case": 1600,
-      "us_trend_new_death": 10,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "MD",
@@ -633,11 +633,11 @@
       "tot_cases_last_24_hours": 0,
       "conf_cases": 0,
       "prob_cases": 0,
-      "new_cases07": 2325,
-      "new_deaths07": 31,
-      "Seven_day_avg_new_cases_per_100k": 5.5,
+      "new_cases07": 2100,
+      "new_deaths07": 29,
+      "Seven_day_avg_new_cases_per_100k": 5,
       "Seven_day_avg_new_deaths_per_100k": 0.1,
-      "Seven_day_cum_new_cases_per_100k": 38.5,
+      "Seven_day_cum_new_cases_per_100k": 34.7,
       "Seven_day_cum_new_deaths_per_100k": 0.5,
       "tot_death": 14355,
       "tot_death_last_24_hours": 0,
@@ -648,9 +648,9 @@
       "id": 24,
       "fips": "24",
       "name": "Maryland",
-      "us_trend_new_case": 465,
-      "us_trend_new_death": 8,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "ME",
@@ -673,9 +673,9 @@
       "id": 23,
       "fips": "23",
       "name": "Maine",
-      "us_trend_new_case": 213,
+      "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "MI",
@@ -698,9 +698,9 @@
       "id": 26,
       "fips": "26",
       "name": "Michigan",
-      "us_trend_new_case": 979,
-      "us_trend_new_death": 15,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "MN",
@@ -723,9 +723,9 @@
       "id": 27,
       "fips": "27",
       "name": "Minnesota",
-      "us_trend_new_case": 539,
-      "us_trend_new_death": 2,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "MO",
@@ -733,7 +733,7 @@
       "tot_cases_last_24_hours": 0,
       "conf_cases": 0,
       "prob_cases": 0,
-      "new_cases07": 2470,
+      "new_cases07": 2469,
       "new_deaths07": 119,
       "Seven_day_avg_new_cases_per_100k": 5.8,
       "Seven_day_avg_new_deaths_per_100k": 0.3,
@@ -748,34 +748,34 @@
       "id": 29,
       "fips": "29",
       "name": "Missouri",
-      "us_trend_new_case": 1,
+      "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "MP",
-      "tot_cases": 11153,
+      "tot_cases": 11158,
       "tot_cases_last_24_hours": 0,
-      "conf_cases": 11153,
+      "conf_cases": 11158,
       "prob_cases": 0,
-      "new_cases07": 131,
+      "new_cases07": 136,
       "new_deaths07": 0,
-      "Seven_day_avg_new_cases_per_100k": 32.9,
+      "Seven_day_avg_new_cases_per_100k": 34.2,
       "Seven_day_avg_new_deaths_per_100k": 0,
-      "Seven_day_cum_new_cases_per_100k": 252.7,
+      "Seven_day_cum_new_cases_per_100k": 262.3,
       "Seven_day_cum_new_deaths_per_100k": 0,
       "tot_death": 33,
       "tot_death_last_24_hours": 0,
       "conf_death": 33,
       "prob_death": 0,
       "death_100k": 58,
-      "incidence": 21510,
+      "incidence": 21519,
       "id": 69,
       "fips": "69",
       "name": "Northern Mariana Islands",
-      "us_trend_new_case": 0,
+      "us_trend_new_case": 5,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "MS",
@@ -798,9 +798,9 @@
       "id": 28,
       "fips": "28",
       "name": "Mississippi",
-      "us_trend_new_case": 163,
-      "us_trend_new_death": 2,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "MT",
@@ -823,9 +823,9 @@
       "id": 30,
       "fips": "30",
       "name": "Montana",
-      "us_trend_new_case": 66,
-      "us_trend_new_death": 2,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "NC",
@@ -848,9 +848,9 @@
       "id": 37,
       "fips": "37",
       "name": "North Carolina",
-      "us_trend_new_case": 1144,
-      "us_trend_new_death": 8,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "ND",
@@ -873,9 +873,9 @@
       "id": 38,
       "fips": "38",
       "name": "North Dakota",
-      "us_trend_new_case": 47,
-      "us_trend_new_death": 1,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "NE",
@@ -898,9 +898,9 @@
       "id": 31,
       "fips": "31",
       "name": "Nebraska",
-      "us_trend_new_case": 1,
+      "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "NH",
@@ -923,34 +923,34 @@
       "id": 33,
       "fips": "33",
       "name": "New Hampshire",
-      "us_trend_new_case": 137,
+      "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "NJ",
-      "tot_cases": 2201324,
+      "tot_cases": 2202817,
       "tot_cases_last_24_hours": 0,
-      "conf_cases": 1899943,
-      "prob_cases": 301381,
-      "new_cases07": 7854,
-      "new_deaths07": 35,
-      "Seven_day_avg_new_cases_per_100k": 12.6,
+      "conf_cases": 1901122,
+      "prob_cases": 301695,
+      "new_cases07": 7497,
+      "new_deaths07": 34,
+      "Seven_day_avg_new_cases_per_100k": 12.1,
       "Seven_day_avg_new_deaths_per_100k": 0.1,
-      "Seven_day_cum_new_cases_per_100k": 88.4,
+      "Seven_day_cum_new_cases_per_100k": 84.4,
       "Seven_day_cum_new_deaths_per_100k": 0.4,
-      "tot_death": 33238,
+      "tot_death": 33245,
       "tot_death_last_24_hours": 0,
-      "conf_death": 30245,
+      "conf_death": 30252,
       "prob_death": 2993,
       "death_100k": 374,
-      "incidence": 24784,
+      "incidence": 24800,
       "id": 34,
       "fips": "34",
       "name": "New Jersey",
-      "us_trend_new_case": 1517,
-      "us_trend_new_death": 6,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "NM",
@@ -973,9 +973,9 @@
       "id": 35,
       "fips": "35",
       "name": "New Mexico",
-      "us_trend_new_case": 93,
-      "us_trend_new_death": 5,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "NV",
@@ -998,34 +998,34 @@
       "id": 32,
       "fips": "32",
       "name": "Nevada",
-      "us_trend_new_case": 218,
-      "us_trend_new_death": 18,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "NY",
-      "tot_cases": 2673606,
+      "tot_cases": 2677991,
       "tot_cases_last_24_hours": 0,
       "conf_cases": 0,
       "prob_cases": 0,
-      "new_cases07": 12878,
-      "new_deaths07": 44,
-      "Seven_day_avg_new_cases_per_100k": 16.6,
+      "new_cases07": 13914,
+      "new_deaths07": 41,
+      "Seven_day_avg_new_cases_per_100k": 18,
       "Seven_day_avg_new_deaths_per_100k": 0.1,
-      "Seven_day_cum_new_cases_per_100k": 116.5,
+      "Seven_day_cum_new_cases_per_100k": 125.9,
       "Seven_day_cum_new_deaths_per_100k": 0.4,
-      "tot_death": 27243,
+      "tot_death": 27254,
       "tot_death_last_24_hours": 0,
       "conf_death": null,
       "prob_death": null,
       "death_100k": 246,
-      "incidence": 24185,
+      "incidence": 24225,
       "id": 36,
       "fips": "36",
       "name": "New York",
-      "us_trend_new_case": 2394,
-      "us_trend_new_death": 9,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 2008,
+      "us_trend_new_death": 7,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "NYC",
@@ -1033,12 +1033,12 @@
       "tot_cases_last_24_hours": 0,
       "conf_cases": 1965817,
       "prob_cases": 344249,
-      "new_cases07": 9899,
-      "new_deaths07": 32,
-      "Seven_day_avg_new_cases_per_100k": 16.8,
-      "Seven_day_avg_new_deaths_per_100k": 0.1,
-      "Seven_day_cum_new_cases_per_100k": 117.9,
-      "Seven_day_cum_new_deaths_per_100k": 0.4,
+      "new_cases07": 6395,
+      "new_deaths07": 23,
+      "Seven_day_avg_new_cases_per_100k": 10.9,
+      "Seven_day_avg_new_deaths_per_100k": 0,
+      "Seven_day_cum_new_cases_per_100k": 76.1,
+      "Seven_day_cum_new_deaths_per_100k": 0.3,
       "tot_death": 40088,
       "tot_death_last_24_hours": 0,
       "conf_death": 34581,
@@ -1050,7 +1050,7 @@
       "name": "New York City",
       "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "OH",
@@ -1075,7 +1075,7 @@
       "name": "Ohio",
       "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "OK",
@@ -1098,9 +1098,9 @@
       "id": 40,
       "fips": "40",
       "name": "Oklahoma",
-      "us_trend_new_case": 591,
+      "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "OR",
@@ -1123,59 +1123,59 @@
       "id": 41,
       "fips": "41",
       "name": "Oregon",
-      "us_trend_new_case": 363,
-      "us_trend_new_death": 3,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "PA",
-      "tot_cases": 2782174,
+      "tot_cases": 2782827,
       "tot_cases_last_24_hours": 0,
-      "conf_cases": 2306234,
-      "prob_cases": 475940,
-      "new_cases07": 4188,
-      "new_deaths07": 115,
-      "Seven_day_avg_new_cases_per_100k": 4.7,
+      "conf_cases": 2306707,
+      "prob_cases": 476120,
+      "new_cases07": 3778,
+      "new_deaths07": 104,
+      "Seven_day_avg_new_cases_per_100k": 4.2,
       "Seven_day_avg_new_deaths_per_100k": 0.1,
-      "Seven_day_cum_new_cases_per_100k": 32.7,
-      "Seven_day_cum_new_deaths_per_100k": 0.9,
-      "tot_death": 44295,
+      "Seven_day_cum_new_cases_per_100k": 29.5,
+      "Seven_day_cum_new_deaths_per_100k": 0.8,
+      "tot_death": 44313,
       "tot_death_last_24_hours": 0,
       "conf_death": null,
       "prob_death": null,
       "death_100k": 346,
-      "incidence": 21732,
+      "incidence": 21738,
       "id": 42,
       "fips": "42",
       "name": "Pennsylvania",
-      "us_trend_new_case": 821,
-      "us_trend_new_death": 20,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "PR",
-      "tot_cases": 481609,
+      "tot_cases": 482185,
       "tot_cases_last_24_hours": 0,
-      "conf_cases": 270059,
-      "prob_cases": 211550,
-      "new_cases07": 3010,
+      "conf_cases": 270305,
+      "prob_cases": 211880,
+      "new_cases07": 2716,
       "new_deaths07": 11,
-      "Seven_day_avg_new_cases_per_100k": 13.5,
+      "Seven_day_avg_new_cases_per_100k": 12.2,
       "Seven_day_avg_new_deaths_per_100k": 0.1,
-      "Seven_day_cum_new_cases_per_100k": 94.3,
+      "Seven_day_cum_new_cases_per_100k": 85,
       "Seven_day_cum_new_deaths_per_100k": 0.3,
       "tot_death": 4170,
       "tot_death_last_24_hours": 0,
       "conf_death": 3474,
       "prob_death": 696,
       "death_100k": 130,
-      "incidence": 15080,
+      "incidence": 15098,
       "id": 72,
       "fips": "72",
       "name": "Puerto Rico",
-      "us_trend_new_case": 1033,
+      "us_trend_new_case": 576,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "PW",
@@ -1198,9 +1198,9 @@
       "id": 70,
       "fips": "70",
       "name": "Palau",
-      "us_trend_new_case": 18,
+      "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "RI",
@@ -1223,9 +1223,9 @@
       "id": 44,
       "fips": "44",
       "name": "Rhode Island",
-      "us_trend_new_case": 242,
+      "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "RMI",
@@ -1250,7 +1250,7 @@
       "name": "Republic of Marshall Islands",
       "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "SC",
@@ -1258,12 +1258,12 @@
       "tot_cases_last_24_hours": 0,
       "conf_cases": 1153570,
       "prob_cases": 314570,
-      "new_cases07": 487,
-      "new_deaths07": 11,
-      "Seven_day_avg_new_cases_per_100k": 1.4,
+      "new_cases07": 118,
+      "new_deaths07": 1,
+      "Seven_day_avg_new_cases_per_100k": 0.3,
       "Seven_day_avg_new_deaths_per_100k": 0,
-      "Seven_day_cum_new_cases_per_100k": 9.5,
-      "Seven_day_cum_new_deaths_per_100k": 0.2,
+      "Seven_day_cum_new_cases_per_100k": 2.3,
+      "Seven_day_cum_new_deaths_per_100k": 0,
       "tot_death": 17591,
       "tot_death_last_24_hours": 0,
       "conf_death": null,
@@ -1275,7 +1275,7 @@
       "name": "South Carolina",
       "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "SD",
@@ -1300,7 +1300,7 @@
       "name": "South Dakota",
       "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "TN",
@@ -1308,11 +1308,11 @@
       "tot_cases_last_24_hours": 0,
       "conf_cases": 1535601,
       "prob_cases": 485392,
-      "new_cases07": 1467,
+      "new_cases07": 1107,
       "new_deaths07": 104,
-      "Seven_day_avg_new_cases_per_100k": 3.1,
+      "Seven_day_avg_new_cases_per_100k": 2.3,
       "Seven_day_avg_new_deaths_per_100k": 0.2,
-      "Seven_day_cum_new_cases_per_100k": 21.5,
+      "Seven_day_cum_new_cases_per_100k": 16.2,
       "Seven_day_cum_new_deaths_per_100k": 1.5,
       "tot_death": 25623,
       "tot_death_last_24_hours": 0,
@@ -1323,59 +1323,59 @@
       "id": 47,
       "fips": "47",
       "name": "Tennessee",
-      "us_trend_new_case": 188,
-      "us_trend_new_death": 12,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "TX",
-      "tot_cases": 6671647,
+      "tot_cases": 6675881,
       "tot_cases_last_24_hours": 0,
       "conf_cases": 0,
       "prob_cases": 0,
-      "new_cases07": 12393,
-      "new_deaths07": 265,
-      "Seven_day_avg_new_cases_per_100k": 6.1,
+      "new_cases07": 13050,
+      "new_deaths07": 215,
+      "Seven_day_avg_new_cases_per_100k": 6.4,
       "Seven_day_avg_new_deaths_per_100k": 0.1,
-      "Seven_day_cum_new_cases_per_100k": 42.7,
-      "Seven_day_cum_new_deaths_per_100k": 0.9,
-      "tot_death": 86029,
+      "Seven_day_cum_new_cases_per_100k": 45,
+      "Seven_day_cum_new_deaths_per_100k": 0.7,
+      "tot_death": 86074,
       "tot_death_last_24_hours": 0,
       "conf_death": null,
       "prob_death": null,
       "death_100k": 296,
-      "incidence": 23009,
+      "incidence": 23024,
       "id": 48,
       "fips": "48",
       "name": "Texas",
-      "us_trend_new_case": 1496,
-      "us_trend_new_death": 41,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 1071,
+      "us_trend_new_death": 8,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "UT",
-      "tot_cases": 928922,
+      "tot_cases": 927922,
       "tot_cases_last_24_hours": 0,
-      "conf_cases": 928922,
+      "conf_cases": 927922,
       "prob_cases": 0,
-      "new_cases07": 1626,
+      "new_cases07": 626,
       "new_deaths07": 19,
-      "Seven_day_avg_new_cases_per_100k": 7.3,
+      "Seven_day_avg_new_cases_per_100k": 2.8,
       "Seven_day_avg_new_deaths_per_100k": 0.1,
-      "Seven_day_cum_new_cases_per_100k": 50.7,
+      "Seven_day_cum_new_cases_per_100k": 19.5,
       "Seven_day_cum_new_deaths_per_100k": 0.6,
       "tot_death": 4721,
       "tot_death_last_24_hours": 0,
       "conf_death": 4495,
       "prob_death": 226,
       "death_100k": 147,
-      "incidence": 28975,
+      "incidence": 28944,
       "id": 49,
       "fips": "49",
       "name": "Utah",
-      "us_trend_new_case": 1000,
-      "us_trend_new_death": 7,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "VA",
@@ -1398,9 +1398,9 @@
       "id": 51,
       "fips": "51",
       "name": "Virginia",
-      "us_trend_new_case": 873,
-      "us_trend_new_death": 6,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "VI",
@@ -1423,9 +1423,9 @@
       "id": 78,
       "fips": "78",
       "name": "Virgin Islands",
-      "us_trend_new_case": 20,
+      "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "VT",
@@ -1450,7 +1450,7 @@
       "name": "Vermont",
       "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "WA",
@@ -1458,11 +1458,11 @@
       "tot_cases_last_24_hours": 0,
       "conf_cases": 0,
       "prob_cases": 0,
-      "new_cases07": 5161,
+      "new_cases07": 3655,
       "new_deaths07": 78,
-      "Seven_day_avg_new_cases_per_100k": 9.7,
+      "Seven_day_avg_new_cases_per_100k": 6.9,
       "Seven_day_avg_new_deaths_per_100k": 0.2,
-      "Seven_day_cum_new_cases_per_100k": 67.8,
+      "Seven_day_cum_new_cases_per_100k": 48,
       "Seven_day_cum_new_deaths_per_100k": 1,
       "tot_death": 12510,
       "tot_death_last_24_hours": 0,
@@ -1473,9 +1473,9 @@
       "id": 53,
       "fips": "53",
       "name": "Washington",
-      "us_trend_new_case": 694,
-      "us_trend_new_death": 16,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "WI",
@@ -1498,9 +1498,9 @@
       "id": 55,
       "fips": "55",
       "name": "Wisconsin",
-      "us_trend_new_case": 508,
-      "us_trend_new_death": 15,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "WV",
@@ -1523,9 +1523,9 @@
       "id": 54,
       "fips": "54",
       "name": "West Virginia",
-      "us_trend_new_case": 95,
-      "us_trend_new_death": 4,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 0,
+      "us_trend_new_death": 0,
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "WY",
@@ -1548,34 +1548,34 @@
       "id": 56,
       "fips": "56",
       "name": "Wyoming",
-      "us_trend_new_case": 55,
+      "us_trend_new_case": 0,
       "us_trend_new_death": 0,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_maxdate": "2022-04-03"
     },
     {
       "abbr": "USA",
-      "tot_cases": 79978129,
-      "tot_cases_last_24_hours": 29045,
-      "conf_cases": 44709960,
-      "prob_cases": 8115053,
-      "new_cases07": 182851,
-      "new_deaths07": 4095,
-      "Seven_day_avg_new_cases_per_100k": 7.9,
+      "tot_cases": 79991833,
+      "tot_cases_last_24_hours": 5601,
+      "conf_cases": 44711140,
+      "prob_cases": 8115918,
+      "new_cases07": 175626,
+      "new_deaths07": 4008,
+      "Seven_day_avg_new_cases_per_100k": 7.6,
       "Seven_day_avg_new_deaths_per_100k": 0.2,
-      "Seven_day_cum_new_cases_per_100k": 55,
+      "Seven_day_cum_new_cases_per_100k": 52.9,
       "Seven_day_cum_new_deaths_per_100k": 1.2,
-      "tot_death": 978852,
-      "tot_death_last_24_hours": 590,
-      "conf_death": 476400,
-      "prob_death": 66804,
+      "tot_death": 979108,
+      "tot_death_last_24_hours": 33,
+      "conf_death": 476422,
+      "prob_death": 66813,
       "death_100k": 294,
-      "incidence": 24090,
+      "incidence": 24094,
       "id": 0,
       "fips": "00",
       "name": "United States of America",
-      "us_trend_new_case": 29045,
-      "us_trend_new_death": 590,
-      "us_trend_maxdate": "2022-04-01"
+      "us_trend_new_case": 5601,
+      "us_trend_new_death": 33,
+      "us_trend_maxdate": "2022-04-03"
     }
   ]
 }
