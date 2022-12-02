@@ -1,8 +1,8 @@
 {
   "CSVInfo": {
     "filename": "US_MAP_DATA",
-    "update": "Dec  1 2022  2:01PM",
-    "disclaimer": "Case and Death data updated as of Dec  1 2022  2:01PM.  Testing data updated as of Dec  1 2022  2:07PM",
+    "update": "Dec  1 2022  6:33PM",
+    "disclaimer": "Case and Death data updated as of Dec  1 2022  6:33PM.  Testing data updated as of Dec  1 2022  6:38PM",
     "fieldpropertymap": [
       {
         "abbr": "abbr"
